@@ -8,7 +8,7 @@ import (
 )
 
 var (
-	//go:embed dist.tar.zst hash.txt
+	//go:embed dist.tzst dist.json
 	fs embed.FS
 
 	Asset = asset.Asset{Name: "linux", FS: fs}
